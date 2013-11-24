@@ -21,6 +21,7 @@
 		2E9F8A571842598500F08C67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9F8A391842598400F08C67 /* UIKit.framework */; };
 		2E9F8A5F1842598500F08C67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F8A5D1842598500F08C67 /* InfoPlist.strings */; };
 		2E9F8A611842598500F08C67 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8A601842598500F08C67 /* Drawing_a_HouseTests.m */; };
+		2E9F8A6C184259C700F08C67 /* PLDrawHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8A6B184259C700F08C67 /* PLDrawHouse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2E9F8A5C1842598500F08C67 /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		2E9F8A5E1842598500F08C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E9F8A601842598500F08C67 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		2E9F8A6A184259C700F08C67 /* PLDrawHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLDrawHouse.h; sourceTree = "<group>"; };
+		2E9F8A6B184259C700F08C67 /* PLDrawHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLDrawHouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				2E9F8A451842598400F08C67 /* PLAppDelegate.m */,
 				2E9F8A471842598400F08C67 /* Main.storyboard */,
 				2E9F8A4A1842598400F08C67 /* PLViewController.h */,
+				2E9F8A6A184259C700F08C67 /* PLDrawHouse.h */,
+				2E9F8A6B184259C700F08C67 /* PLDrawHouse.m */,
 				2E9F8A4B1842598400F08C67 /* PLViewController.m */,
 				2E9F8A4D1842598400F08C67 /* Images.xcassets */,
 				2E9F8A3C1842598400F08C67 /* Supporting Files */,
@@ -252,6 +257,7 @@
 			files = (
 				2E9F8A461842598400F08C67 /* PLAppDelegate.m in Sources */,
 				2E9F8A4C1842598400F08C67 /* PLViewController.m in Sources */,
+				2E9F8A6C184259C700F08C67 /* PLDrawHouse.m in Sources */,
 				2E9F8A421842598400F08C67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
